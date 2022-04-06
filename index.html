@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./javascript/app.js" type="module" defer></script>
+    <script
+      src="https://kit.fontawesome.com/240b515d4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weathery</title>
+  </head>
+
+  <body>
+    <header>
+      <button type="button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <form action="/" method="post">
+        <input type="search" name="city-name" placeholder="Enter a city name" />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <section class="weather">
+        <div class="weather__title">
+          <div><i class="fa-solid fa-cloud"></i></div>
+          <div>
+            <h3>Weather</h3>
+            <span>Current weather.</span>
+          </div>
+        </div>
+
+        <div class="weather__temp">
+          <div>
+            <span>22°C</span>
+            <span>11°C</span>
+          </div>
+          <span>Partly Cloudy</span>
+        </div>
+
+        <div class="weather__info">
+          <div>
+            <span>Pressure</span>
+            <span>800mb</span>
+          </div>
+          <div>
+            <span>Visibility</span>
+            <span>4.3km</span>
+          </div>
+          <div>
+            <span>Humidity</span>
+            <span>87%</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="temperature">
+        <div class="temperature__title">
+          <div><i class="fa-solid fa-thermometer"></i></div>
+          <div>
+            <h3>Temperature</h3>
+            <span>Today's min & max.</span>
+          </div>
+        </div>
+
+        <div class="temperature__info">
+          <div>
+            <span>Min <i class="fa-solid fa-temperature-arrow-down"></i></span>
+            <span>11°C</span>
+          </div>
+          <div>
+            <span>Max <i class="fa-solid fa-temperature-arrow-up"></i></span>
+            <span>23°C</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="today">
+        <h3>Temperature Today</h3>
+        <div class="today__times">
+          <div class="today__block">
+            <div>
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="today__time">
+              <span>20°</span>
+              <span>Morning</span>
+            </div>
+          </div>
+          <div class="today__block">
+            <div class="today__icon-high">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="today__time">
+              <span>20°</span>
+              <span>Morning</span>
+            </div>
+          </div>
+          <div class="today__block">
+            <div>
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="today__time">
+              <span>20°</span>
+              <span>Morning</span>
+            </div>
+          </div>
+          <div class="today__block">
+            <div class="today__icon-high">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="today__time">
+              <span>20°</span>
+              <span>Morning</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tomorrow">
+        <div class="tomorrow__city">
+          <span>Tomorrow</span>
+          <span>Buenos Aires</span>
+        </div>
+        <div class="tomorrow__temp">
+          <span>20°C</span>
+          <span>Rainy</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

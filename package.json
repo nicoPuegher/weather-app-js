@@ -1,4 +1,17 @@
 {
+  "name": "weather-app-js",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.16.1"
+  },
+  "type": "module",
+  "description": "JavaScript Weather App ",
+  "main": "app.js",
+  "author": "Nicolas",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/eslint-parser": "^7.17.0",

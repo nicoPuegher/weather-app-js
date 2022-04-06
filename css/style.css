@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
+
+:root {
+  --font: 'Kanit', sans-serif;
+}
+
+html {
+  font-family: var(--font);
+  font-size: 62, 5%;
+}
+
+body {
+  padding: 1rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+/*----- Header -----*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2e2e2;
+}
+
+.weather {
+  padding: 1rem;
+  background-color: #b0b0b0;
+}
+
+.weather__title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.weather__title div:nth-child(1) {
+  background-color: #e2e2e2;
+}
+
+.weather__temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.weather__temp div span:nth-child(2) {
+  background-color: #e2e2e2;
+}
+
+.weather__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather__info div:nth-child(1),
+.weather__info div:nth-child(2),
+.weather__info div:nth-child(3) {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #555555;
+}
+
+.temperature {
+  padding: 1rem;
+  background-color: #e2e2e2;
+}
+
+.temperature__title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.temperature__title div:nth-child(1) {
+  background-color: #e2e2e2;
+}
+
+.temperature__info {
+  display: flex;
+}
+
+.temperature__info div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #555555;
+}
+
+.temperature__info div:nth-child(1) {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.temperature__info div:nth-child(2) {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b0b0b0;
+}
+
+.today__icon-high {
+  height: 50px;
+}
+
+.today__times {
+  display: flex;
+}
+
+.today__time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.today__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tomorrow {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+}
+
+.tomorrow__city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tomorrow__temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
