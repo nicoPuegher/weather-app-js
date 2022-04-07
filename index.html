@@ -16,11 +16,11 @@
 
   <body>
     <header>
-      <button type="button">
+      <button class="header__menu" type="button">
         <i class="fa-solid fa-bars"></i>
       </button>
 
-      <form action="/" method="post">
+      <form class="header__form" action="/" method="post">
         <input type="search" name="city-name" placeholder="Enter a city name" />
         <button type="submit">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -31,33 +31,33 @@
     <main>
       <section class="weather">
         <div class="weather__title">
-          <div><i class="fa-solid fa-cloud"></i></div>
-          <div>
+          <div class="weather__icon"><i class="fa-solid fa-cloud"></i></div>
+          <div class="weather__current">
             <h3>Weather</h3>
             <span>Current weather.</span>
           </div>
         </div>
 
         <div class="weather__temp">
-          <div>
+          <div class="weather__degrees">
             <span>22°C</span>
             <span>11°C</span>
           </div>
-          <span>Partly Cloudy</span>
+          <span class="weather__climate">Partly Cloudy</span>
         </div>
 
         <div class="weather__info">
-          <div>
-            <span>Pressure</span>
-            <span>800mb</span>
+          <div class="weather__pressure">
+            <span class="weather__data">Pressure</span>
+            <span class="weather__now">800mb</span>
           </div>
-          <div>
-            <span>Visibility</span>
-            <span>4.3km</span>
+          <div class="weather__visibility">
+            <span class="weather__data">Visibility</span>
+            <span class="weather__now">4.3km</span>
           </div>
-          <div>
-            <span>Humidity</span>
-            <span>87%</span>
+          <div class="weather__humidity">
+            <span class="weather__data">Humidity</span>
+            <span class="weather__now">87%</span>
           </div>
         </div>
       </section>
@@ -95,6 +95,7 @@
               <span>Morning</span>
             </div>
           </div>
+
           <div class="today__block">
             <div class="today__icon-high">
               <i class="fa-solid fa-moon"></i>
@@ -104,6 +105,7 @@
               <span>Morning</span>
             </div>
           </div>
+
           <div class="today__block">
             <div>
               <i class="fa-solid fa-moon"></i>
@@ -113,6 +115,7 @@
               <span>Morning</span>
             </div>
           </div>
+
           <div class="today__block">
             <div class="today__icon-high">
               <i class="fa-solid fa-moon"></i>
