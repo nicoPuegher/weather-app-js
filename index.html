@@ -64,21 +64,28 @@
 
       <section class="temperature">
         <div class="temperature__title">
-          <div><i class="fa-solid fa-thermometer"></i></div>
-          <div>
+          <div class="temperature__icon">
+            <i class="fa-solid fa-thermometer"></i>
+          </div>
+          <div class="temperature__current">
             <h3>Temperature</h3>
             <span>Today's min & max.</span>
           </div>
         </div>
 
         <div class="temperature__info">
-          <div>
-            <span>Min <i class="fa-solid fa-temperature-arrow-down"></i></span>
-            <span>11°C</span>
+          <div class="temperature__min">
+            <span class="temperature__data"
+              >Min <i class="fa-solid fa-temperature-arrow-down"></i
+            ></span>
+            <span class="temperature__now">11°C</span>
           </div>
-          <div>
-            <span>Max <i class="fa-solid fa-temperature-arrow-up"></i></span>
-            <span>23°C</span>
+
+          <div class="temperature__max">
+            <span class="temperature__data"
+              >Max <i class="fa-solid fa-temperature-arrow-up"></i
+            ></span>
+            <span class="temperature__now">23°C</span>
           </div>
         </div>
       </section>

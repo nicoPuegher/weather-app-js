@@ -69,6 +69,7 @@ header {
 
 /*----- Weather Title -----*/
 .weather {
+  margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 0.7rem;
   background-image: url('../images/weather.png');
@@ -176,7 +177,70 @@ header {
   font-weight: 400;
 }
 
+/* Temperature Title */
 .temperature {
+  padding: 1rem;
+  border-radius: 0.7rem;
+  background-color: var(--gray);
+}
+
+.temperature__title {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.temperature__icon {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 100%;
+  color: var(--primary);
+  background-color: var(--white);
+}
+
+.temperature__current h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.temperature__current span {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+/* Temperature Info */
+.temperature__info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0.7rem;
+  background-color: var(--white);
+}
+
+.temperature__min,
+.temperature__max {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0.7rem;
+}
+
+.temperature__data {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin-bottom: 0.25rem;
+}
+
+.temperature__now {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 3rem;
+  border-radius: 0.7rem;
+}
+
+/* .temperature {
   padding: 1rem;
   background-color: #e2e2e2;
 }
@@ -260,4 +324,4 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-}
+} */
